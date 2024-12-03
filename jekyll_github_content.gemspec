@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll_github_content"
-  spec.version       = "0.0.3"
+  spec.version       = "0.0.4"
   spec.authors       = ["Francisco Perez-Sorrosal"]
   spec.email         = ["fperezsorrosal@gmail.com"]
   spec.date          = '2016-08-15'
@@ -30,6 +30,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'activesupport', '~> 4.2'
   spec.add_dependency 'jekyll',        '~> 3.1'
 
-  spec.add_development_dependency "bundler", "~> 1.13.a"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "bundler", "~> 2.5.23"
+  spec.add_development_dependency "rake", "~> 13.2"
 end
